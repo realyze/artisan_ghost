@@ -1,0 +1,14 @@
+{{#foreach posts}}
+
+<article class="{{post_class}}">
+	<header class="post-header">
+		<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+	</header>
+	<section class="post-excerpt">
+		<p>{{excerpt words="60"}}<span class="ellipsis">&hellip;</span></p>
+	</section>
+</article>
+
+{{/foreach}}
+
+{{pagination}}
