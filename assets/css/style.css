@@ -259,6 +259,20 @@ blockquote {
         color: #969BA2;
         text-decoration: none;
         border-color: #fff; }
+  .header .navigation-links {
+    margin: 0.3em 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px #6c6b6b solid;
+    border-bottom: 1px #6c6b6b solid; }
+  .header .about-me, .header .goings-on {
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    padding: 0 20px; }
+    .header .about-me a, .header .goings-on a {
+      color: #969BA2; }
+    .header .about-me a:hover, .header .goings-on a:hover {
+      color: #fff; }
 
 .content {
   padding: 100px 0; }
