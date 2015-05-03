@@ -118,7 +118,7 @@ li:before {
     color: #060; } }
 body {
   font: 18px/1.6em "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #787F8C;
+  color: #6F6F6F;
   background: #fff; }
 
 a, a:visited {
@@ -198,16 +198,18 @@ code {
   padding: 1px 5px;
   border-radius: 2px; }
 
-pre {
-  background: #FFFDDC;
-  padding: 20px;
-  margin-bottom: 1em;
-  overflow: auto;
-  border-radius: 2px; }
-  pre code {
-    background: none;
-    padding: 0; }
+/*pre {
+	background: #FFFDDC;
+	padding: 20px;
+	margin-bottom: 1em;
+	overflow: auto;
+	border-radius: 2px;
 
+	code {
+		background: none;
+		padding: 0;
+	}
+}*/
 blockquote {
   font-style: italic;
   margin: 0 0 1em 15px;
@@ -273,10 +275,10 @@ blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   .footer a, .footer a:visited {
-    color: #787F8C;
+    color: #6F6F6F;
     border-bottom: 2px solid #4f5864; }
     .footer a:hover, .footer a:active, .footer a:visited:hover, .footer a:visited:active {
-      color: #787F8C;
+      color: #6F6F6F;
       text-decoration: none;
       border-color: #fff; }
     .footer a.subscribe, .footer a:visited.subscribe {
@@ -447,7 +449,7 @@ body.page article.page .post-title {
     .footer:after {
       clear: both; }
     .footer a, .footer a:visited {
-      color: #787F8C;
+      color: #6F6F6F;
       border-bottom: 2px solid #ddd; }
       .footer a:hover, .footer a:active, .footer a:visited:hover, .footer a:visited:active {
         color: #0089D0;
